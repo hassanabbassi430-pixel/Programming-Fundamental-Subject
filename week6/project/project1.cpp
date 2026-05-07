@@ -226,7 +226,7 @@ int main()
                                }
                             }
                         }
-                           cout<<"Name/tAge/tAggregate"<<endl;
+                           cout<<"Name\tAge\tAggregate"<<endl;
                            for(int i=0;i<index;i++){
                             if (nameArray[i]!="")
                             {
@@ -235,7 +235,7 @@ int main()
                            }
                                 // admit students in their disciplines 
                               cout<<"-----Admission Result-----"<<endl;
-                              cout<<"Name\tAggerate\t\tAdmitted To"<<endl;
+                              cout<<"Name\tAggerate\t\tAmitted To"<<endl;
                               int cs_seats=2,ce_seats=2,ee_seats=2,me_seats=2;
                               for(int i=0;i<index;i++) 
                               {
